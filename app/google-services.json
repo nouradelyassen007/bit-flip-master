@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "648790044683",
+    "firebase_url": "https://bitflip-3896f.firebaseio.com",
+    "project_id": "bitflip-3896f",
+    "storage_bucket": "bitflip-3896f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648790044683:android:aebec177ca50d6d0",
+        "android_client_info": {
+          "package_name": "com.epicodus.bitflip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648790044683-5m4c4qo911f3oq3j1a972cssvkcccfn9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epicodus.bitflip",
+            "certificate_hash": "B248F4F10B53D14CEF11A994B65962B29E288098"
+          }
+        },
+        {
+          "client_id": "648790044683-5shjoj1mlsv13ni9i28aan2kngfv2f0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCovLjMqcpWj_QAeLhK-PHfFChb3nLNHNs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648790044683-5shjoj1mlsv13ni9i28aan2kngfv2f0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BitFlip</string>
+    <string-array name="categories">
+        <item>All</item>
+        <item>Clothing</item>
+        <item>Tools</item>
+        <item>Games</item>
+        <item>Tech</item>
+        <item>Entertainment</item>
+        <item>Appliances</item>
+        <item>Services</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

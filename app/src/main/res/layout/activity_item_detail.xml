@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.epicodus.bitflip.ui.ItemDetailActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="211dp">
+        </android.support.v4.view.ViewPager>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:background="@android:color/white"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jordans"
+                android:id="@+id/itemNameTextView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="20sp"
+                android:textColor="@color/primaryDark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$5.00"
+                android:id="@+id/itemPriceTextView"
+                android:layout_alignTop="@+id/itemNameTextView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shoes"
+                android:id="@+id/itemCategoryTextView"
+                android:layout_below="@+id/itemNameTextView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/secondaryText"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vintage Retro I's"
+                android:id="@+id/itemDescriptionTextView"
+                android:layout_below="@+id/itemCategoryTextView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/primaryText"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_above="@+id/emailOwnerButton"
+                android:paddingLeft="30dp"
+                android:paddingTop="30dp"
+                android:paddingRight="30dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner"
+                    android:id="@+id/ownerTextView"
+                    android:drawableLeft="@drawable/ic_account_box_white_24dp"
+                    android:drawablePadding="4dp"
+                    android:textColor="@color/icons"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="charles@barkley.com"
+                    android:id="@+id/emailTextView"
+                    android:drawableLeft="@drawable/ic_email_white_24dp"
+                    android:drawablePadding="4dp"
+                    android:textColor="@color/icons"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Owner"
+                android:id="@+id/emailOwnerButton"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                android:textColor="@color/icons"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
